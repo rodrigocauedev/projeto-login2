@@ -37,6 +37,9 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
+    transition-duration: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
     }
 
 #imagem {
